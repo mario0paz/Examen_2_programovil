@@ -2,6 +2,7 @@ import 'package:Examen_2_programovil/modelo/modeloticket.dart';
 import 'package:Examen_2_programovil/screens/providercode.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:go_router/go_router.dart';
 
 class editartickets extends StatefulWidget {
   final String id;
