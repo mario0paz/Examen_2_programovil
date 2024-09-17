@@ -3,10 +3,10 @@ import 'package:provider/provider.dart';
 import 'package:go_router/go_router.dart';
 import 'package:Examen_2_programovil/screens/providercode.dart';
 
-class TicketListScreen extends StatelessWidget {
+class listadtickets extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final provider = Provider.of<TicketProvider>(context);
+    final provider = Provider.of<providercode>(context);
 
     return Scaffold(
       appBar: AppBar(title: const Text('Tickets')),

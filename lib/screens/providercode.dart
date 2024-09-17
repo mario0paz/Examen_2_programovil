@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:Examen_2_programovil/crud/ticketavion.dart';
 import 'package:Examen_2_programovil/model/modeloticket.dart';
 
-class TicketProvider with ChangeNotifier {
+class providercode with ChangeNotifier {
   List<Ticket> _tickets = [];
   List<Ticket> get tickets => _tickets;
 
